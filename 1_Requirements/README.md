@@ -1,102 +1,39 @@
-# Intro :- 
 
-Wiper Control System is used in all types of vehicles the main purpose is to clean the rain air drops present in front screen of the vehicles. 
-It is very difficult to drive the vehicles in rain condition so in this case we will use wipers to clean the front screen of vehicles which is mirror so that we can drive the vehicles even in rain also
+# INTRODUCTION
+  The operational speed of a wiper is controlled by a wiper speed control system in accordance with frequencies. The pulse signal is digitally processed to provide a control signal. A wiper driver circuit receives the control signal and adjusts the operational speed or timing in line with it.
+# SOFTWARE REQUIREMENTS
+ STM32 CUBE IDE
+# COMPONENTS
+  STM32F4O7VG MICROCONTROLLER BOARD
 
-
-# Features :-
-
-1.It shall lock the car when button is pressed ONCE.
-
-2.It shall open the car when button is pressed TWICE.
-
-3.It shall wiper on and it moves clock wise direction when button is pressed THREE times.
-
-4.It shall wiper off and it moves anti clock wise direction when button is pressed FOUR times.
-
-5.It shall wiper complete one cycle when the button is pressed FIVE times.
-
-
-# Aim :-
-To prevent the Accidents During rain condition
-
-
-# Research :-
-Application is researched from various resources like from Google, YouTube and from Research Papers and then developed one application model called as wiper control system
-
-
-# End Goal :-
-1.Avoid Accidents and Provide safety environment
-
-2.Clean Vision in weather conditions
-
-
-# 4'W1'H :-
-
-# Who :-
- All who wants safety and clean vision in weather conditions.
-
-# What :-
- It's a application that is Wiper Speed Control System for every vehicles
-
-# Why :-
- Curious about intrest in embedded system applications.
-
-# When :-
- If anyone wants to drive the car in rain condition with safety.
-
-# How :-
- LED shows the position of wiper and it will return to the original condition after cleaning the windsheet of motor vehicles.
- 
- 
-# Requirements:--
-
-### High level requirements:-
-
-|  ID  |             Discription           |    status   |
-|------|-----------------------------------|-------------|
-|HR_01 | It Shall LOCK the car  | Implemented |
-|HR_02 | It Shall UNLOCK the car                       | Implemented |
-|HR_03 | It Shall Activate Wiper System         | Implemented |
-|HR_04 | It Shall Deactivate Wiper System.      | Implemented |
-
-### Low level requirements:-
-
-|  ID  |             Discription                          |    status   |
-|------|--------------------------------------------------|-------------|
-|LR_01 | If the User pressed the Button ONCE - ON LED RED                             | Implemented |
-|LR_02 | If the User pressed the Button TWICE - OFF LED RED                                 | Implemented |
-|LR_03 | If the User pressed the Button THREE times - ON BLUE,GREEN,ORANGE                                  | Implemented|
-|LR_04 | If the User pressed the Button FOUR times - ON ORANGE,GREEN,BLUE.                  | Implemented |
-
-
-# SWOT Analysis :-
-
-## Strength :-
-1.Clear Visibility
-
-2.Silent Operation
-
-3.Wiper not stop in middle of Window
-
-## Weakness :-
-1.Cost Increase
-
-2.Replacement
-
-3.Rubber Blades need
-
-## Opportunities :-
-1.Safety and Healthy well being opportunities
-
-2.Emoloyment Opportunities
-
-3.Increase as wiper system is necessary to install.
-
-## Threats :-
-1.Snow removal hard blades technology is available
-
-2.Replaced by Advance Technology
+ # USES
+  * This Microcontroller is utilised in printing and scanning machines ,heat ventilation, air conditioning, and security systems. 
+  * This module can be found in a variety of household products.
+ # WORKING PRINCIPLE
+  Assume that the automobile is the microcontroller. If the button is hit, the first led (red) will turn on, Clicking again  the wiper will start, and the second led (blue) will turn on for a desired rate. If the button is pressed again, the third led (green) will turn on, and the wiper's speed will be increased in comparison to the previous one. The fourth press will turn on the fourth led (orange), and the wiper speed will be increased in accordance with the previous one. The microcontroller (vehicle) is turned off after the fifth click.
+ ## 4 W'S
+ # WHAT IS WIPER SYSTEM
+  Windscreen wipers are necessary for maintaining sufficient view for the driver, especially in modern high-speed cars.
+ # WHY WIPER SYSTEM
+   To keep the windscreen clean enough to give adequate view at all times.
+ # WHEN SHOULD USE WIPER SYSTEM 
+  The windshield wipers remove rain and snow from the windshield, while the headlights improve visibility at night.
+ # WHO DISCOVERED WIPER SYSTEM
+  Mark Anderson invented on 1902
+  
+  ## DESCRIPTION
+# STM32F407VG
+ The STM32F407  Kit takes advantage of the high-performance STM32F407 microcontrollers' capabilities to make it simple for users to create audio-based applications. It comes with an ST-LINK embedded debug tool, an ST-MEMS digital accelerometer, a digital microphone, an audio DAC with integrated class D speaker driver, LEDs, pushbuttons, and a USB OTG micro-AB connector.Ethernet connectivity, an LCD display, and other features have been added to the STM32F4 DISCOVERY kit. The STM32F405xx and STM32F407xx families are built around the high-performance Arm® Cortex®-M4 32-bit RISC core, which runs at up to 168 MHz.
+ # FEATURES OF STM32F407VG MICROCONTROLLER
+  * In a LQFP100 package, the STM32F407VGT6 microcontroller has a 32-bit ARM Cortex-M4 with FPU core, 1-Mbyte Flash memory, and 192-Kbyte RAM.
+  * On-board ST-LINK/V2 or ST-LINK/V2-A on STM32F4 DISCOVERY (old reference) or STM32F407G-DISC1 (new order code)
+  * USB ST-LINK with three separate interfaces and re-enumeration capability.
+  * Virtual Com port Debug port (with new order code only)
+  * Large-scale storage (with new order code only)
+  * Board power is supplied through USB or an external 5 V supply source.
+  * 3 V and 5 V external application power supply
+   
+  
 
 
  
